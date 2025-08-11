@@ -10,83 +10,159 @@
       font-family: Arial, sans-serif;
       background: #f4f4f4;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0066cc;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       background: #fff;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1, h2, h3 {
+    .cta-button {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      margin: 20px auto;
       text-align: center;
     }
-    .benefits {
-      margin-top: 20px;
-      line-height: 1.8;
+    .cta-button:hover {
+      background-color: #218838;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      margin: 10px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+    .benefits li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      top: 0;
     }
     .image-container {
       text-align: center;
       margin: 30px 0;
     }
-    .cta-button {
-      display: block;
-      width: fit-content;
-      margin: 30px auto;
-      background-color: #28a745;
-      color: white;
-      padding: 15px 30px;
-      font-size: 18px;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
+    .section {
+      margin-top: 30px;
     }
-    .cta-button:hover {
-      background-color: #218838;
+    .testimonials {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .testimonial {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    .highlight {
+      background: #ffeb3b;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      padding: 20px 0;
     }
   </style>
+</head>
+<body>
 
-  <!-- Google tag (gtag.js) -->
+  <header>
+    <h1>Domine o Excel e Aumente Sua Produtividade</h1>
+    <a class="cta-button" href="https://go.hotmart.com/I99187501M" target="_blank">👉 QUERO ACESSAR O CURSO AGORA</a>
+  </header>
+
+  <div class="container">
+
+    <section class="section">
+      <h2>O Curso de Excel Mais Completo e Acessível do Brasil</h2>
+      <p>Aprenda Excel do zero ao avançado com aulas passo a passo, exercícios práticos e certificado válido em todo o Brasil. Ideal para quem quer se destacar no mercado de trabalho.</p>
+    </section>
+
+    <div class="benefits section">
+      <h3>Você vai aprender:</h3>
+      <ul>
+        <li>Conceitos básicos e interface do Excel</li>
+        <li>Fórmulas e funções mais usadas</li>
+        <li>Criação de gráficos e dashboards</li>
+        <li>Atalhos e truques para produtividade</li>
+        <li>Aplicações práticas no trabalho</li>
+        <li>Certificado incluso e reconhecido</li>
+      </ul>
+    </div>
+
+    <div class="image-container section">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj523Xon8P3suhg4GZSBtDMmxNjvyGkWZHFbZWsZM0OFHCtVM3g0twxtpx5w_xiHJeTsMzWox_gjuziOE_ax2SZIL2DVwEt9yCEEsKbavWo7dFjvDALVyp83iDLp5wfd77hSUbJb6prVAPxl61lq4Tl_CCInS-onLrVIkIKFSCGmFtdoAl9czQ0erZP8n9y/w600-h660/excel.webp" alt="Curso de Excel" width="300" />
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <a class="cta-button" href="https://go.hotmart.com/I99187501M" target="_blank">🚀 QUERO COMEÇAR AGORA</a>
+    </div>
+
+    <div class="section testimonials">
+      <h3>O que dizem nossos alunos:</h3>
+      <p class="testimonial">"Aprendi mais em 2 semanas de curso do que em 1 ano tentando sozinho. Simplesmente incrível!" – <strong>João M.</strong></p>
+      <p class="testimonial">"Material excelente, professor didático e suporte rápido. Recomendo!" – <strong>Maria S.</strong></p>
+      <p class="testimonial">"Esse curso me ajudou a conseguir uma promoção no trabalho." – <strong>Paulo R.</strong></p>
+    </div>
+
+    <div class="section">
+      <p class="highlight">🎁 Bônus especial: Comprando hoje, você ganha acesso a um pacote de planilhas prontas para o dia a dia!</p>
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <a class="cta-button" href="https://go.hotmart.com/I99187501M" target="_blank">✅ GARANTIR MINHA VAGA</a>
+    </div>
+
+    <div class="section">
+      <h3>Garantia incondicional de 7 dias</h3>
+      <p>Se por qualquer motivo você não gostar do curso, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Curso Excel Hoje – Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Google Tag -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16930109573"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'AW-16930109573');
   </script>
-</head>
-<body>
-  <div class="container">
-    <h1>O Curso de Excel Mais Completo e Acessível do Brasil</h1>
-    <h2>Aprenda Excel do Zero ao Avançado</h2>
-    <p style="text-align: center;">Curso 100% online, ideal para iniciantes e para quem deseja dominar as principais funções do Excel.</p>
 
-    <div class="benefits">
-      <ul>
-        <li>✅ Conceitos básicos e interface do Excel</li>
-        <li>✅ Fórmulas e funções mais usadas</li>
-        <li>✅ Criação de gráficos e dashboards</li>
-        <li>✅ Aumento de produtividade com dicas práticas</li>
-        <li>✅ Aplicações reais para o mercado de trabalho</li>
-        <li>✅ Certificado incluso válido em todo o Brasil</li>
-      </ul>
-    </div>
-
-    <div class="image-container">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj523Xon8P3suhg4GZSBtDMmxNjvyGkWZHFbZWsZM0OFHCtVM3g0twxtpx5w_xiHJeTsMzWox_gjuziOE_ax2SZIL2DVwEt9yCEEsKbavWo7dFjvDALVyp83iDLp5wfd77hSUbJb6prVAPxl61lq4Tl_CCInS-onLrVIkIKFSCGmFtdoAl9czQ0erZP8n9y/w600-h660/excel.webp" alt="Curso de Excel" width="300" />
-    </div>
-
-    <a class="cta-button" href="https://go.hotmart.com/I99187501M" target="_blank">👉 QUERO ACESSAR O CURSO AGORA</a>
-
-    <p style="text-align: center; margin-top: 20px;"><strong>Garanta sua vaga e comece hoje mesmo a se destacar com o Excel!</strong></p>
-  </div>
 </body>
 </html>
-
 
 
 
